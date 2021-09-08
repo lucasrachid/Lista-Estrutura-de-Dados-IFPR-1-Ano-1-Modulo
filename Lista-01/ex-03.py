@@ -1,0 +1,7 @@
+nome = input('Diga seu nome: ')
+sobrenome = input('Diga o seu sobrenome: ')
+idade = int(input('Qual a sua idade ? '))
+peso = float(input('E o seu peso ? '))
+altura = float(input('Qual a sua altura ? '))
+dataDeNascimento = input('E qual a sua data de nascimento ? ')
+print(f'Prazer em te conhecer {nome} {sobrenome}, você tem {idade} anos de vida, pesa {peso} KG, tem {altura} metros de altura e nasceu em \n{dataDeNascimento}.')
